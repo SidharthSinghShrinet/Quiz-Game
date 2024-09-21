@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Generator</title>
+    <link rel="stylesheet" href="certificate.css">
+</head>
+<body id="body">
+    <div class="certificate-form"></div>
+        <div class="fill-form">
+            <div class="form">
+                <h1>Certificate Form</h1>
+                <p id="fname">Your Name*<br>
+                    <input type="text" placeholder="Name on Certificate" id="name" required>
+                </p>
+                <div>
+                    <button id="downloaddata">Download E-Certificate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="certificate.js"></script>
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="certificate1.js"></script>
+    <script src="FileSaver.js"></script>
+    <script src="Js Q&A.js"></script>
+</body>
+</html>

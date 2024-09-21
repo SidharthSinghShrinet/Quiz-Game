@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fill-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 175px;
+}
+
+.form{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background: linear-gradient(rgb(66, 66, 150),rgb(94, 164, 94),rgb(46, 46, 230));
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.form h1{
+    text-decoration: underline red;
+}
+
+.form p{
+    margin-top: 40px;
+    text-align: left;
+    font-weight: bolder;
+}
+
+#fname{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+#fname input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: rgb(218, 205, 189);
+    font-family: 'Lucida Sans';
+    font-weight: bolder;
+}
+
+div button{
+    margin-top: 45px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'arial';
+    font-weight: bolder;
+}
+
+#downloaddata{
+    background-color:greenyellow;
+    border: none;
+}
+
+button:hover{
+    border: 2px solid orange;
+    transform: scale(1.05);
+}

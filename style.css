@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #534B62;
+}
+
+.navbar{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 6vh;
+    width: 6vh;
+    margin: 0 10px 0 10px;
+}
+
+.logo{
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.7RUENRo42_f7Hx-9bYM_hgHaEK&pid=Api&P=0&h=180);
+    background-size: cover;
+    height: 6vh;
+    width: 6vh;
+}
+
+#nav-heading{
+    color: white;
+    font-size: 1.75rem;
+    font-family: "arial";
+}
+
+.all-quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-heading{
+    color: white;
+    text-align: center;
+    font-size: 4.5rem;
+    text-decoration: underline;
+}
+
+.total-quiz{
+    width: 50vh;
+    height: 60vh;
+    margin-top: 100px;
+    background-color: #534B62;
+    padding: 15px;
+}
+
+.quiz{
+    display: flex;
+    font-size: 2.0rem;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.quiz a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.border{
+    border: 2px solid grey;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
